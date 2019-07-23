@@ -10,16 +10,8 @@ import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 
 const store = configureStore();
-// store.subscribe(() => {
-//     const state = store.getState();
-//     const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-//     console.log(visibleExpenses);
-// })
 
-store.dispatch(addExpense('Water bill', 'month of Jan', 350, 1));
-store.dispatch(addExpense('Gas bill', 'first quarter', 120, 270));
-store.dispatch(addExpense('Phone bill', 'February Month', 750, 300));
-store.dispatch(addExpense('Home rent', 'Whole year', 324235, 250));
+
 
 
 
