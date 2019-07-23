@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: white;
+
+    font-family: helvetica, Arial, sans-serif;
+    font-size: $s-size;
+}
+
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+    color: green;
+    padding: 0 10px 0 10px;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border: groove 1px blue;
+    border-spacing: $s-size;
+
+   
+}
+td{
+    border: inset 1px black;
+
+    padding:0 10px 0 10px;
+}
+thead{
+    font-weight: bolder;
+    color: red; 
+}
+
+form{
+    margin-bottom: $m-size;
+}
