@@ -7,13 +7,16 @@ import configureStore from './store/configureStore';
 // import getVisibleExpenses from './selectors/expenses';
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';
+import { addExpense } from './actions/expenses';
 console.log('shiiiiiiit')
 
 const store = configureStore();
 
 
 
-
+store.dispatch(addExpense("coffe", "",300, 0));
+store.dispatch(addExpense("home", "",300, 0));
+store.dispatch(addExpense("rent", "",300, 0));
 
 
 const jsx = (
